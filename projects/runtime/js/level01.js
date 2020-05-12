@@ -18,14 +18,14 @@ var level01 = function(window) {
             "gameItems": [
                 { "type": "sawblade", "x": 600, "y": groundY },
                 { "type": "sawblade", "x": 900, "y": groundY },
-                { "type": "sawblade", "x": 400, "y": 200 },
-                { "type": "sawblade", "x": 700, "y": 250 },
-                { "type": "rock", "x": 1000, "y": 225 },
-                { "type": "enemy", "x": 1100, "y": 260 },
-                { "type": "enemy", "x": 1200, "y": 260 },
-                { "type": "enemy", "x": 1300, "y": 260 },
-                { "type": "rock", "x": 1400, "y": 225 },
-                { "type": "reward", "x": 1500, "y": 175 },
+                { "type": "sawblade", "x": 400, "y": groundY -120 },
+                { "type": "sawblade", "x": 700, "y": groundY -70 },
+                { "type": "rock", "x": 1000, "y": groundY -95 },
+                { "type": "enemy", "x": 1100, "y": groundY -60 },
+                { "type": "enemy", "x": 1200, "y": groundY -60 },
+                { "type": "enemy", "x": 1300, "y": groundY -60 },
+                { "type": "rock", "x": 1400, "y": groundY -75 },
+                { "type": "reward", "x": 1500, "y": groundY -150 },
 
             ]
         };
